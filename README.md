@@ -1,6 +1,5 @@
 
 
-```
 # Particle41 DevOps Challenge – SimpleTimeService
 
 This repository contains my submission for the Particle41 DevOps Team Challenge. It demonstrates a full DevOps workflow, including:
