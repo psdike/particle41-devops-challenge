@@ -40,17 +40,17 @@ docker build -t simpletimeservice .
 
 ### ▶️ Run Locally
 
-```bash
+```
 docker run -p 8080:8080 simpletimeservice
 ```
 
 Test:
-```bash
+```
 curl http://localhost:8080
 ```
 
 Expected:
-```json
+```
 {
   "timestamp": "2025-04-14T12:34:56.789Z",
   "ip": "127.0.0.1"
@@ -65,7 +65,7 @@ The image is publicly available at:
 👉 **https://hub.docker.com/r/psdike/particle41-assignment-devops**
 
 Use it directly:
-```bash
+```
 docker run -p 8080:8080 psdike/particle41-assignment-devops
 ```
 
@@ -96,7 +96,7 @@ Install the following tools:
 - [Git](https://git-scm.com/)
 
 ✅ Authenticate with AWS CLI:
-```bash
+```
 aws configure
 ```
 
@@ -104,7 +104,7 @@ aws configure
 
 ## 📋 How to Deploy the Infrastructure
 
-```bash
+```
 cd terraform/
 terraform init
 terraform plan
@@ -114,7 +114,7 @@ terraform apply
 After deployment, the output will include the public Load Balancer DNS.  
 You can access the app via:
 
-```bash
+```
 curl http://<alb_dns_name>
 ```
 
