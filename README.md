@@ -17,7 +17,7 @@ This repository contains my submission for the Particle41 DevOps Team Challenge.
 ### 🌐 What it does:
 A lightweight Flask web service that returns the following JSON on the `/` route:
 
-```json
+```
 {
   "timestamp": "<UTC timestamp>",
   "ip": "<requester's IP address>"
@@ -33,7 +33,7 @@ A lightweight Flask web service that returns the following JSON on the `/` route
 
 ### 🔧 Build Locally
 
-```bash
+```
 cd app/
 docker build -t simpletimeservice .
 ```
